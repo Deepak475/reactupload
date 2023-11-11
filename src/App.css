@@ -32,7 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+.navigation {
+  display: flex;
+  background-color: #e5e5e5;
+  padding: 12px;
+  color: #000;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation a {
+  margin-right: 10px;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navigation a:hover {
+  color: blueviolet;
 }
